@@ -33,8 +33,8 @@ header h1 {
     border: 1px solid gold;
 }
 
-button {
-    padding: 100px;
+button::be {
+    border: 1px solid black;
 }
 
 img {
@@ -46,5 +46,13 @@ img {
 }
 
 .card-text {
+    padding-top: 20px;
     border-top: 1px solid black;
+}
+
+.card-title {
+    font-weight: 700;
+}
+.price {
+    color: rgb(185, 158, 0);
 }
